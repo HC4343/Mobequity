@@ -1,10 +1,10 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-03-22T07:23:49.590Z",
-        "line": 4,
+        "start_timestamp": "2021-03-22T08:06:12.776Z",
+        "line": 5,
         "name": "User should be able to get details when search any valid user with username",
         "description": "",
         "id": "api-test;user-should-be-able-to-get-details-when-search-any-valid-user-with-username",
@@ -13,10 +13,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1845897814,
+              "duration": 1374333159,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "User sends GET request to endpoint \"/users\"",
             "match": {
               "arguments": [
@@ -31,10 +31,10 @@
           },
           {
             "result": {
-              "duration": 1986485,
+              "duration": 1826221,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "Verifies that response status code is 200",
             "match": {
               "arguments": [
@@ -49,10 +49,10 @@
           },
           {
             "result": {
-              "duration": 594251,
+              "duration": 715801,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "Verifies that response content type is \"application/json; charset\u003dutf-8\"",
             "match": {
               "arguments": [
@@ -67,10 +67,10 @@
           },
           {
             "result": {
-              "duration": 244599681,
+              "duration": 261483822,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "Verifies the a record with username \"Delphine\"",
             "match": {
               "arguments": [
@@ -87,15 +87,12 @@
         "tags": [
           {
             "name": "@regression"
-          },
-          {
-            "name": "@api"
           }
         ]
       },
       {
-        "start_timestamp": "2021-03-22T07:23:51.715Z",
-        "line": 11,
+        "start_timestamp": "2021-03-22T08:06:14.446Z",
+        "line": 12,
         "name": "User should not be able to get details when search any invalid user with username",
         "description": "",
         "id": "api-test;user-should-not-be-able-to-get-details-when-search-any-invalid-user-with-username",
@@ -104,10 +101,10 @@
         "steps": [
           {
             "result": {
-              "duration": 132229041,
+              "duration": 112416401,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "User sends GET request to endpoint \"/users\"",
             "match": {
               "arguments": [
@@ -122,10 +119,10 @@
           },
           {
             "result": {
-              "duration": 420477,
+              "duration": 666719,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "Verifies that response status code is 200",
             "match": {
               "arguments": [
@@ -140,10 +137,10 @@
           },
           {
             "result": {
-              "duration": 436396,
+              "duration": 559346,
               "status": "passed"
             },
-            "line": 14,
+            "line": 15,
             "name": "Verifies that response content type is \"application/json; charset\u003dutf-8\"",
             "match": {
               "arguments": [
@@ -158,10 +155,10 @@
           },
           {
             "result": {
-              "duration": 94000285,
+              "duration": 89732074,
               "status": "passed"
             },
-            "line": 15,
+            "line": 16,
             "name": "Verifies there is no record with username \"Yasin\"",
             "match": {
               "arguments": [
@@ -177,13 +174,13 @@
         ],
         "tags": [
           {
-            "name": "@api"
+            "name": "@regression"
           }
         ]
       },
       {
-        "start_timestamp": "2021-03-22T07:23:51.944Z",
-        "line": 18,
+        "start_timestamp": "2021-03-22T08:06:14.652Z",
+        "line": 19,
         "name": "User should be able to search for the posts written by any user",
         "description": "",
         "id": "api-test;user-should-be-able-to-search-for-the-posts-written-by-any-user",
@@ -192,10 +189,10 @@
         "steps": [
           {
             "result": {
-              "duration": 451573733,
+              "duration": 262000910,
               "status": "passed"
             },
-            "line": 19,
+            "line": 20,
             "name": "User is able to GET endpoint \"/posts\" written by username \"Delphine\"",
             "match": {
               "arguments": [
@@ -214,10 +211,10 @@
           },
           {
             "result": {
-              "duration": 403054,
+              "duration": 509867,
               "status": "passed"
             },
-            "line": 20,
+            "line": 21,
             "name": "Verifies that response status code is 200",
             "match": {
               "arguments": [
@@ -232,10 +229,10 @@
           },
           {
             "result": {
-              "duration": 481922,
+              "duration": 482195,
               "status": "passed"
             },
-            "line": 21,
+            "line": 22,
             "name": "Verifies that response content type is \"application/json; charset\u003dutf-8\"",
             "match": {
               "arguments": [
@@ -250,10 +247,10 @@
           },
           {
             "result": {
-              "duration": 2344564,
+              "duration": 2397244,
               "status": "passed"
             },
-            "line": 22,
+            "line": 23,
             "name": "Verifies the 10 posts written by the user",
             "match": {
               "arguments": [
@@ -269,12 +266,12 @@
         ],
         "tags": [
           {
-            "name": "@api"
+            "name": "@regression"
           }
         ]
       },
       {
-        "start_timestamp": "2021-03-22T07:23:52.401Z",
+        "start_timestamp": "2021-03-22T08:06:14.920Z",
         "line": 25,
         "name": "User should not be able to search for the posts written by invalid user",
         "description": "",
@@ -284,7 +281,7 @@
         "steps": [
           {
             "result": {
-              "duration": 419659173,
+              "duration": 196289857,
               "status": "passed"
             },
             "line": 26,
@@ -306,7 +303,7 @@
           },
           {
             "result": {
-              "duration": 849375,
+              "duration": 336321,
               "status": "passed"
             },
             "line": 27,
@@ -324,7 +321,7 @@
           },
           {
             "result": {
-              "duration": 751522,
+              "duration": 367393,
               "status": "passed"
             },
             "line": 28,
@@ -342,7 +339,7 @@
           },
           {
             "result": {
-              "duration": 3078293,
+              "duration": 1872953,
               "status": "passed"
             },
             "line": 29,
@@ -361,13 +358,13 @@
         ],
         "tags": [
           {
-            "name": "@api"
+            "name": "@regression"
           }
         ]
       },
       {
-        "start_timestamp": "2021-03-22T07:23:52.828Z",
-        "line": 40,
+        "start_timestamp": "2021-03-22T08:06:15.121Z",
+        "line": 39,
         "name": "Validate all posts\u0027comments e-mails is proper format for a username",
         "description": "",
         "id": "api-test;validate-all-posts-comments-e-mails-is-proper-format-for-a-username;;2",
@@ -376,10 +373,10 @@
         "steps": [
           {
             "result": {
-              "duration": 3941143772,
+              "duration": 2261433271,
               "status": "passed"
             },
-            "line": 33,
+            "line": 32,
             "name": "User is able to GET all comments for each posts written by username \"Delphine\"",
             "match": {
               "arguments": [
@@ -394,10 +391,10 @@
           },
           {
             "result": {
-              "duration": 334434,
+              "duration": 360919,
               "status": "passed"
             },
-            "line": 34,
+            "line": 33,
             "name": "Verifies that response status code is 200",
             "match": {
               "arguments": [
@@ -412,10 +409,10 @@
           },
           {
             "result": {
-              "duration": 346690,
+              "duration": 383595,
               "status": "passed"
             },
-            "line": 35,
+            "line": 34,
             "name": "Verifies that response content type is \"application/json; charset\u003dutf-8\"",
             "match": {
               "arguments": [
@@ -430,10 +427,10 @@
           },
           {
             "result": {
-              "duration": 1041057594,
+              "duration": 1101562771,
               "status": "passed"
             },
-            "line": 36,
+            "line": 35,
             "name": "Verifies comments e-mails of \"Delphine\" posts are proper format",
             "match": {
               "arguments": [
@@ -449,13 +446,13 @@
         ],
         "tags": [
           {
-            "name": "@api"
+            "name": "@regression"
           }
         ]
       },
       {
-        "start_timestamp": "2021-03-22T07:23:57.814Z",
-        "line": 41,
+        "start_timestamp": "2021-03-22T08:06:18.489Z",
+        "line": 40,
         "name": "Validate all posts\u0027comments e-mails is proper format for a username",
         "description": "",
         "id": "api-test;validate-all-posts-comments-e-mails-is-proper-format-for-a-username;;3",
@@ -464,10 +461,10 @@
         "steps": [
           {
             "result": {
-              "duration": 3586405076,
+              "duration": 2077253855,
               "status": "passed"
             },
-            "line": 33,
+            "line": 32,
             "name": "User is able to GET all comments for each posts written by username \"Bret\"",
             "match": {
               "arguments": [
@@ -482,10 +479,10 @@
           },
           {
             "result": {
-              "duration": 300900,
+              "duration": 244129,
               "status": "passed"
             },
-            "line": 34,
+            "line": 33,
             "name": "Verifies that response status code is 200",
             "match": {
               "arguments": [
@@ -500,10 +497,10 @@
           },
           {
             "result": {
-              "duration": 337981,
+              "duration": 271088,
               "status": "passed"
             },
-            "line": 35,
+            "line": 34,
             "name": "Verifies that response content type is \"application/json; charset\u003dutf-8\"",
             "match": {
               "arguments": [
@@ -518,10 +515,10 @@
           },
           {
             "result": {
-              "duration": 1109342337,
+              "duration": 1446916580,
               "status": "passed"
             },
-            "line": 36,
+            "line": 35,
             "name": "Verifies comments e-mails of \"Bret\" posts are proper format",
             "match": {
               "arguments": [
@@ -537,7 +534,7 @@
         ],
         "tags": [
           {
-            "name": "@api"
+            "name": "@regression"
           }
         ]
       }
@@ -547,6 +544,15 @@
     "id": "api-test",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/API.feature",
-    "tags": []
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

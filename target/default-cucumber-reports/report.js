@@ -2,7 +2,12 @@ $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.
 formatter.feature({
   "name": "API Test",
   "description": "",
-  "keyword": "Feature"
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@regression"
+    }
+  ]
 });
 formatter.scenario({
   "name": "User should be able to get details when search any valid user with username",
@@ -11,9 +16,6 @@ formatter.scenario({
   "tags": [
     {
       "name": "@regression"
-    },
-    {
-      "name": "@api"
     }
   ]
 });
@@ -63,7 +65,7 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@api"
+      "name": "@regression"
     }
   ]
 });
@@ -113,7 +115,7 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@api"
+      "name": "@regression"
     }
   ]
 });
@@ -163,7 +165,7 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@api"
+      "name": "@regression"
     }
   ]
 });
@@ -210,12 +212,7 @@ formatter.result({
 formatter.scenarioOutline({
   "name": "Validate all posts\u0027comments e-mails is proper format for a username",
   "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@api"
-    }
-  ]
+  "keyword": "Scenario Outline"
 });
 formatter.step({
   "name": "User is able to GET all comments for each posts written by username \"\u003cusername\u003e\"",
@@ -261,7 +258,7 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@api"
+      "name": "@regression"
     }
   ]
 });
@@ -311,7 +308,7 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@api"
+      "name": "@regression"
     }
   ]
 });

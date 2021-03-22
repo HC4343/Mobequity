@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="222e5930-ffe0-4db7-a5cd-6d35f0111958" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mobiquity/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mobiquity/runners/CukesRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +102,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1750" height="301" key="GridCell.Tab.0.bottom" timestamp="1616397927182">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="301" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616397927182" />
+    <state width="1750" height="301" key="GridCell.Tab.0.center" timestamp="1616397927180">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="301" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616397927180" />
+    <state width="1750" height="301" key="GridCell.Tab.0.left" timestamp="1616397927179">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="301" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616397927179" />
+    <state width="1750" height="301" key="GridCell.Tab.0.right" timestamp="1616397927181">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="301" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1616397927181" />
     <state x="434" y="222" key="Maven.ArtifactSearchDialog" timestamp="1609684827953">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>

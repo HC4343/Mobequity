@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/mobiquity/step_definitions",
         dryRun = false,
-        tags = "@api"
+        tags = "@regression"
 
 )
 
